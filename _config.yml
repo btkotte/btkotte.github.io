@@ -48,13 +48,7 @@ youtube_username: softwarebhayya
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-Hey Bhanu here ! I am an accomplished and results-driven Backend Java Developer with over 11 years of software development
-experience, including 4+ years of leading technical teams and driving the delivery of innovative solutions.
-Over 6 years of experience in banking and financial sectors with deep understanding of the processes and
-regulatory requirements. Proficient in Java development, system architecture, and agile methodologies.
-Expertise in designing and implementing robust backend systems with a focus on scalability and business
-objectives. Proven success as a Tech Lead driving project initiatives, mentoring teams, and fostering
-collaborative environments
+  Hey Bhanu here ! I am an accomplished and results-driven Backend Java Developer with over 11 years of software development experience, including 4+ years of leading technical teams and driving the delivery of innovative solutions. Over 6 years of experience in banking and financial sectors with deep understanding of the processes and regulatory requirements. Proficient in Java development, system architecture, and agile methodologies. Expertise in designing and implementing robust backend systems with a focus on scalability and business objectives. Proven success as a Tech Lead driving project initiatives, mentoring teams, and fostering collaborative environments
 
 content:
 
