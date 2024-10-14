@@ -1,0 +1,130 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Bhanu Kotte
+title: Lead Software Engineer/Backend Developer
+email: mr.bhanu.kotte@gmail.com
+website: btkotte.github.io
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+#twitter_username: facespics
+github_username:  btkotte
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: software_bhayya_telugu
+linkedin_username: btkotte
+# xing_username: jekyll
+# pinterest_username: jekyll
+youtube_username: softwarebhayya
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+Hey Bhanu here ! I am an accomplished and results-driven Backend Java Developer with over 11 years of software development
+experience, including 4+ years of leading technical teams and driving the delivery of innovative solutions.
+Over 6 years of experience in banking and financial sectors with deep understanding of the processes and
+regulatory requirements. Proficient in Java development, system architecture, and agile methodologies.
+Expertise in designing and implementing robust backend systems with a focus on scalability and business
+objectives. Proven success as a Tech Lead driving project initiatives, mentoring teams, and fostering
+collaborative environments
+
+content:
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: KTH Royal Institute of Technology -- Sweden
+        caption: 2014 - 2016
+        sub_title: Masters in Computer Science
+      - layout: left
+        title: SASTRA University -- India
+        caption: 2008 - 2012
+        sub_title: Bachelors in Computer Science
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: A.P Moller & Maersk
+        link: https://www.maersk.com/
+        # link_text: boringcompany.com
+        sub_title: Lead Software Engineer
+        caption: Oct 2023 - Present
+        description: | # this will include new lines to allow paragraphs
+            Building and developing track n trace capabiity for AIR & LCL freight orders.
+      - layout: right
+        title: SEB Bank AB
+        link: https://www.seb.se/
+        # link_text: boringcompany.com
+        sub_title: Lead Software Developer
+        caption: May 2020 - Sep 2023
+        description: | # this will include new lines to allow paragraphs
+            Developed a realtime transaction monitoring system to identify fraudulent transactions 
+      - layout: left
+        title: Nordea Bank Abp
+        link: https://www.nordea.se/
+        # link_text: boringcompany.com
+        sub_title: Senior IT Developer
+        caption: Feb 2018 - Apr 2020
+        description: | # this will include new lines to allow paragraphs
+            Developed a common authentication and signing solution for the nordics
+      - layout: right
+        title: Collins Aerospace
+        link: https://www.collinsaerospace.com/
+        # link_text: boringcompany.com
+        sub_title: Software Engineer
+        caption: Jan 2011 - Aug 2014
+        description: | # this will include new lines to allow paragraphs
+            Developed various internal tools and also worked with the airbus A350 infotainment system
+
+  
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in software engineering some of my other interests and hobbies are:
+      - Playing Chess
+      - [Teaching on youtube](https://www.youtube.com/c/softwarebhaya)
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
