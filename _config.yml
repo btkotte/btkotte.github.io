@@ -75,7 +75,7 @@ content:
         caption: Oct 2023 - Present
         description: | # this will include new lines to allow paragraphs
             Building and developing track n trace capabiity for AIR & LCL freight orders.
-      - layout: right
+      - layout: left
         title: SEB Bank AB
         link: https://www.seb.se/
         # link_text: boringcompany.com
@@ -91,7 +91,7 @@ content:
         caption: Feb 2018 - Apr 2020
         description: | # this will include new lines to allow paragraphs
             Developed a common authentication and signing solution for the nordics
-      - layout: right
+      - layout: left
         title: Collins Aerospace
         link: https://www.collinsaerospace.com/
         # link_text: boringcompany.com
